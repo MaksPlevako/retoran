@@ -1,0 +1,239 @@
+body{
+	margin: 0;
+	font-family: Old Standard TT;
+	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1480px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.home{
+	width: 100%;
+	height: 800px;
+	background: url(img/caption_1.png) center no-repeat;
+	background-size: 1482px;
+	align-items: center;
+	text-align: center;
+}
+
+.home_logo{
+	padding-top: 50px;
+}
+
+.home_logo img{
+	width: 200px;
+}
+
+.home_nav{
+	margin-top: 20px;
+}
+
+.nav_link{
+	color: #fff;
+	margin-left: 50px;
+	transition: 1s;
+}
+
+.nav_link:hover{
+	font-size: 26px;
+	transition: 1s;
+	text-decoration: underline;
+}
+
+.home_text{
+	color: #fff;
+	font-family: Bellota;
+	font-style: italic;
+	margin-top: 120px;
+}
+
+.home_text_name{
+	font-style: normal;
+	font-weight: bold;
+}
+
+.main_text{
+	font-size: 48px;
+}
+
+.second_text{
+	font-size: 36px;
+}
+
+/*ABOUT RES*/
+
+.about{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	background: linear-gradient(180deg, #FFFFFF 10%, #A468B9 45%, #FFFFFF 90%);
+}
+
+.about_photo{
+	width: 50%;
+	height: 70%;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.about_text{
+	padding-top: 160px;
+	width: 400px;
+	margin-left: 70px;
+	text-align: center;
+}
+
+.about_main_text{
+	font-size: 36px;
+}
+
+.about_second_text{
+	margin-top: 55px;
+	text-align: justify;
+}
+
+.about_time_text{
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+/*Cheff*/
+
+.chef{
+	width: 100%;
+	height: 800px;
+	background: linear-gradient(180deg, #FFFFFF 10%, #A468B9 50%);
+}
+
+.chef_text{
+	padding: 0 470px;
+	text-align: center;
+}
+
+.chef_main_text{
+	display: block;
+	font-size: 36px;
+}
+
+.chefs{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
+
+.chefs img{
+	width: 270px;
+}
+
+/*Feedback form*/
+
+.feedback{
+	padding-top: 40px;
+	color: #fff;
+	text-align: center;
+	height: 280px;
+	background: #A468B9;
+}
+
+.feedback_text{
+	font-size: 36px;
+}
+
+.feedback_form{
+	padding-top: 20px;
+}
+
+.feedback_form input, button{
+  text-align: center;
+  width: 300px;
+  padding-top: 20px;
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #EDA8ED;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+}
+
+.feedback_form input:focus{
+	outline: none;
+}
+
+.feedback_form button{
+	width: 340px;
+	height: 40px;
+	margin-top: 30px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.feedback_form button:hover{
+	background-color: #BD7253;
+	transition: .4s;
+}
+
+input, button{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*Footer*/
+
+.contact{
+	width: 100%;
+	height: 800px;
+	background: #A468B9;
+}
+
+.contact_text{
+	padding-top: 50px;
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+}
+
+.contact_information{
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.hello_to{
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 28px;
+}
+
+.information{
+	padding-left: 100px;
+}
+
+.information div{
+	margin-bottom: 20px;
+}
+
+.information div a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.map{
+	position:relative;
+	right: -160px;
+	bottom: -40px;
+}

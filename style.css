@@ -1,0 +1,305 @@
+body{
+	margin: 0;
+	font-family: Old Standard TT;
+	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1482px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.home{
+	width: 100%;
+	height: 800px;
+	background: url(img/caption_1.png) center no-repeat;
+	background-size: 1482px;
+	align-items: center;
+	text-align: center;
+}
+
+.home_logo{
+	padding-top: 50px;
+}
+
+.home_logo img{
+	width: 200px;
+}
+
+.home_nav{
+	margin-top: 20px;
+}
+
+.nav_link{
+	color: #fff;
+	margin-left: 50px;
+	transition: 1s;
+}
+
+.nav_link:hover{
+	font-size: 26px;
+	transition: 1s;
+	text-decoration: underline;
+}
+
+.home_text{
+	color: #fff;
+	font-family: Bellota;
+	font-style: italic;
+	margin-top: 120px;
+}
+
+.home_text_name{
+	font-style: normal;
+	font-weight: bold;
+}
+
+.main_text{
+	font-size: 48px;
+}
+
+.second_text{
+	font-size: 36px;
+}
+
+/*ABOUT RES*/
+
+.about{
+	width: 100%;
+	height: 700px;
+	display: flex;
+	background: linear-gradient(180deg, #FFFFFF 10%, #A468B9 45%, #FFFFFF 90%);
+	transition: .2s;
+}
+
+.about_photo{
+	width: 50%;
+	height: 70%;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.about_text{
+	padding-top: 160px;
+	width: 400px;
+	margin-left: 70px;
+	text-align: center;
+}
+
+.about_main_text{
+	font-size: 36px;
+}
+
+.about_second_text{
+	margin-top: 55px;
+	text-align: justify;
+}
+
+.about_time_text{
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+/*To_menu*/
+
+.to_menu{
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+}
+
+.to_menu_text{
+	text-align: center;
+}
+
+.to_menu_main_text{
+	color: #2D0D3D;
+	font-size: 36px;
+}
+
+.to_menu_second_text{
+	padding: 0 470px;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.to_menu_button{
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+.to_menu_button a{
+	padding: 20px 50px;
+	border: solid 2px #722C94;
+	color: #000;
+	font-size: 30px;
+	transition: .5s;
+}
+
+.to_menu_button a:hover{
+	padding: 20px 50px;
+	border: solid 3px #722C94;
+	color: #000;
+	font-size: 36px;
+	transition: .5s;
+}
+
+.to_cheff_button{
+	text-align: center;
+	padding-top: 60px;
+
+}
+
+.to_cheff_button a{
+	padding: 20px 40px;
+	border: solid 2px #722C94;
+	color: #000;
+	font-size: 30px;
+	transition: .5s;
+}
+
+.to_cheff_button a:hover{
+	padding: 20px 50px;
+	border: solid 3px #722C94;
+	color: #000;
+	font-size: 36px;
+	transition: .5s;
+}
+
+
+/*Galery*/
+
+.galery{
+	width: 100%;
+	height: 800px;
+	background-color: #fff;
+}
+
+.galery_text{
+	text-align: center;
+	font-size: 36px;
+}
+
+.first_line{
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sec_line{
+	padding-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.side_ph{
+	width: 360px;
+}
+
+/*Feedback form*/
+
+.feedback{
+	color: #fff;
+	padding-top: 40px;
+	text-align: center;
+	height: 300px;
+	background: #A468B9;
+}
+
+.feedback_text{
+	font-size: 36px;
+}
+
+.feedback_form{
+	padding-top: 20px;
+}
+
+.feedback_form input, button{
+  text-align: center;
+  width: 300px;
+  padding-top: 20px;
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #EDA8ED;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+}
+
+.feedback_form input:focus{
+	outline: none;
+}
+
+.feedback_form button{
+	width: 340px;
+	height: 40px;
+	margin-top: 30px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.feedback_form button:hover{
+	background-color: #BD7253;
+	transition: .4s;
+}
+
+input, button{
+	display: block;
+	margin: 0 auto;
+}
+
+/*Footer*/
+
+.contact{
+	width: 100%;
+	height: 800px;
+	background: #A468B9;
+}
+
+.contact_text{
+	padding-top: 30px;
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+}
+
+.contact_information{
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.hello_to{
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 28px;
+}
+
+.information{
+	padding-left: 100px;
+}
+
+.information div{
+	margin-bottom: 20px;
+}
+
+.information div a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.map{
+	position:relative;
+	right: -160px;
+	bottom: -40px;
+}

@@ -1,0 +1,396 @@
+@media (min-width: 1480px){
+	.map_for_small{
+		display: none;
+	}
+
+	.map_for_middle{
+		display: none;
+	}
+
+	.map_for_so_small{
+		display: none;
+	}
+}
+
+
+
+@media (max-width: 1480px){
+	.container{
+		width: 100%;
+	}
+
+	.home{
+		height: 550px;
+		background-size: cover;
+	}
+
+	.home_logo{
+		padding-top: 20px;
+	}
+
+	.home_text{
+		margin-top: 50px;
+	}
+
+	.nav_link:hover{
+		font-size: 20px;
+		transition: 1s;
+		text-decoration: underline;
+	}
+
+	.about{
+		height: 500px;
+	}
+
+	.about_photo{
+		width: 40%;
+		height: 70%;
+	}
+
+	.about_text{
+		padding: 120px 30px;
+		margin-left: 40px;
+	}
+
+	.about_second_text{
+		margin-top: 10px;
+	}
+
+	.about_time_text{
+		margin-top: 10px;
+	}
+
+	.to_menu_second_text{
+		padding: 0 200px;
+	}
+
+	.galery{
+		width: 100%;
+		height: 100%;
+	}
+
+	.side_ph{
+		width: 0;
+	}
+
+	.chef{
+		height: 100%;
+	}
+
+	.chef_text{
+		padding: 0 250px;
+	}
+
+	.chefs{
+		margin-top: 20px;
+		display: block;
+	}
+
+	.cheffs_menu{
+		height: 100%;
+	}
+
+	.menu{
+		height: 100%;
+	}
+
+	.dish{
+		width: 800px;
+	}
+
+	.dish img{
+		width: 40%;
+		height: 200px;
+	}
+
+	.dish_text{
+		width: 60%;
+	}
+
+	.name_text{
+		font-size: 18px;
+	}
+
+	.recipe_text{
+		height: 100px;
+		overflow: auto;
+		margin-top: 12px;
+		font-size: 16px;
+	}
+
+	.price_text{
+		font-size: 14px;
+	}
+
+	.contact{
+		height: 700px;
+	}
+
+	.information{
+		padding-left: 70px;
+	}
+
+	.map_for_middle{
+		padding-left: 30px;
+	}
+
+	.map{
+		display: none;
+	}
+
+	.map_for_small{
+		display: none;
+	}
+
+	.map_for_so_small{
+		display: none;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.container{
+		width: 100%;
+	}
+
+	.about{
+		height: 400px;
+	}
+
+	.about_photo{
+		width: 0%;
+	}
+
+	.about_text{
+		padding-left: 50px;
+		align-items: center;
+		padding-top: 30px;
+	}
+
+	.to_menu{
+		width: 100%;
+	}
+
+	.to_menu_second_text{
+		padding: 0 100px;
+	}
+
+	.to_menu_button{
+	padding-top: 100px;
+	}
+
+	.contact{
+		height: 100%;
+	}
+
+	.contact_information{
+		display: block;
+	}
+
+	.information{
+		text-align: center;
+	}
+
+	.map{
+		display: none;
+	}
+
+	.map_for_middle{
+		display: none;
+	}
+
+	.map_for_small{
+		display: block;
+		text-align: center;
+	}
+
+	.chef_text{
+		padding: 0 100px;
+	}
+
+	.menu{
+		height: 100%;
+	}
+
+	.cheffs_menu_1{
+		display: block;
+		padding-left: 120px;
+	}
+
+	.cheffs_menu_2{
+		display: block;
+		padding-left: 120px;
+	}
+
+	.menu_1{
+		display: block;
+		padding-left: 120px;
+	}
+
+	.menu_2{
+		display: block;
+		padding-left: 120px;
+	}
+
+	.dish{
+		width: 500px;
+		height: 100%;
+	}
+
+	.dish img{
+		width: 250px;
+		height: 200px;
+	}
+
+	.dish_text{
+		width: 250px;
+		height: 200px;
+	}
+
+	.name_text{
+		font-size: 20px;
+	}
+
+	.recipe_text{
+		height: 100px;
+		overflow: auto;
+		margin-top: 12px;
+		font-size: 18px;
+	}
+
+	.price_text{
+		font-size: 15px;
+	}
+}
+
+@media	(max-width: 376px){
+	.container{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.home{
+		height: 500px;
+	}
+
+	.home_logo img{
+		padding-top: 15px;
+		width: 50%;
+	}
+
+	.home_nav{
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.nav_link{
+		margin-left: 5px;
+	}
+
+	.main_text{
+		font-size: 36px;
+	}
+
+	.about{
+		width: 100%;
+		height: 310px;
+	}
+
+	.about_photo{
+		padding-left: 0;
+	}
+
+	.about_text{
+		padding-left: 0;
+		font-size: 15px;
+	}
+
+	.to_menu{
+		height: 400px;
+	}
+
+	.to_menu_second_text{
+		margin-top: 10px;
+		padding: 0 20px;
+	}
+
+	.to_menu_button{
+		padding-top: 30px;
+	}
+
+	.to_menu_button a{
+		padding: 10px 25px;
+	}
+
+	.to_menu_button a:hover{
+		padding: 10px 25px;
+		border: solid 2px #722C94;
+		color: #000;
+		font-size: 30px;
+	}
+
+	.to_cheff_button{
+		padding-top: 30px;
+	}
+
+	.to_cheff_button a{
+		padding: 10px 15px;
+	}
+
+	.to_cheff_button a:hover{
+		padding: 10px 15px;
+		border: solid 2px #722C94;
+		color: #000;
+		font-size: 30px;
+	}
+
+	.contact_text{
+		padding-top: 20px;
+	}
+
+	.information{
+		padding-left: 0;
+	}
+
+	.map_for_small{
+		display: none;
+	}
+
+	.chef_text{
+		padding: 0 30px;
+	}
+
+	.dish img{
+		width: 50%;
+		height: 200px;
+	}
+
+	.cheffs_menu_1, .cheffs_menu_2, .menu_1, .menu_2{
+		padding-left: 0;
+	}
+
+	.dish{
+		width: 100%;
+	}
+
+	.first_line img{
+		width: 100%;
+	}
+
+	.sec_line img{
+		width: 100%;
+	}
+
+	.side_ph{
+		display: none;
+	}
+
+	.feedback_form input, button{
+		width: 200px;
+	}
+
+	.feedback_form button{
+		width: 170px;
+	}
+
+}
